@@ -1,6 +1,7 @@
 # hargutil
 A tool for dealing args.
-Read [Chinese version](./README-zh.md) if possible
+Read [Chinese version](./README-zh.md) if possible.
+请尽可能看[中文版本](./README-zh.md)。
 
 ## Install
 The package can be installed through pip (this is the recommended method)\
