@@ -1,4 +1,4 @@
-# hargs
+# hargutil
 处理命令行参数的工具
 ## 用法
 ### New

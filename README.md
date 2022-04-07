@@ -1,4 +1,4 @@
-# hargs
+# hargutil
 A tool for dealing args.
 Read [Chinese version](./README-zh.md) if possible
 

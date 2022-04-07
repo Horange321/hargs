@@ -1,6 +1,6 @@
 import unittest
 
-from hargs import Hargs
+from hargutil import Hargs
 
 
 class Tester1(unittest.TestCase):
