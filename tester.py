@@ -12,7 +12,7 @@ class Tester1(unittest.TestCase):
             .add('', 'none', 'none')
         ar = a.to_dict()
 
-        self.assertEqual(None, ar['v'])
+        self.assertEqual('', ar['v'])
         self.assertEqual("asd", ar['asd'])
         self.assertEqual("true", ar['f'])
         self.assertEqual(None, ar['none'])

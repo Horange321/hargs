@@ -1,17 +1,17 @@
 # hargutil
 A tool for dealing args.
-Read [Chinese version](./README-zh.md) if possible.
+Read [Chinese version](./README-zh.md) if possible.\
 请尽可能看[中文版本](./README-zh.md)。
 
 ## Install
 The package can be installed through pip (this is the recommended method)\
-`pip install hargs`
+`pip install hargs`\
 Or downloading the release from [Pypi](https://pypi.org/project/hargs/) or Github
 
 ## Usage
 ### New
 First, create a `Hargs` class:\
-`hargs = Hargs(sys.argv)`\
+`hargs = Hargs(sys.argv)`
 
 ### Hargs.add()
 To add some switches, use function `Hargs.add(short:str, long:str, map: str)`\
@@ -28,7 +28,7 @@ hargs.add('v', 'version', 'v') \
 #   ... ...
 ```
 It's worth noticing that `short` and `long` can't be `''` at the same time.\
-`map` can't be `''`\
+`map` can't be `''`
 
 ### Hargs.to_dict()
 Then `hargs` can be transformed into `dict`:\

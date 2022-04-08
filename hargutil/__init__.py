@@ -1,5 +1,5 @@
 class Hargs:
-    ver = "Python v1.1.1"
+    ver = "Python v1.1.3"
 
     def __init__(self, args: list):
         """
@@ -45,6 +45,7 @@ class Hargs:
                 # 如果没有参数
                 i1 = f"-{self.__ys[i][0]}="
                 i2 = f"--{self.__ys[i][1]}="
+                j = j + '=' if j[-1] != '=' else j
 
                 if self.__startwith(j, i1) or self.__startwith(j, i2):
                     try:
